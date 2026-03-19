@@ -8,10 +8,10 @@ export default function Hero() {
   const skills = [
     { icon: "💻", label: "FullStack Development", color: "#FF6B00" },
     { icon: "🎨", label: "Frontend Development", color: "#FFB800" },
-    { icon: "🎬", label: "3D Animation", color: "#00C9A7" },
-    { icon: "⚙️", label: "Backend & APIs", color: "#A78BFA" },
+    { icon: "🎬", label: "2D Animation", color: "#00C9A7" },
+    { icon: "⚙️", label: "Backend Development", color: "#A78BFA" },
     { icon: "☁️", label: "Deployment", color: "#38BDF8" },
-    { icon: "🎭", label: "VFX & Compositing", color: "#F472B6" },
+    { icon: "🎭", label: "3D Animation & Mocap", color: "#F472B6" },
   ];
 
   useEffect(() => {

@@ -247,9 +247,9 @@ export default function Contact() {
                                 <div><span className="ct-info-lbl">{item.label}</span><p className="ct-info-val">{item.val}</p></div>
                             </div>
                         ))}
-                        <div className="ct-social">
+                        {/* <div className="ct-social">
                             {["📘 Facebook", "📸 Instagram", "▶️ YouTube"].map((s, i) => <span key={i} className="ct-chip">{s}</span>)}
-                        </div>
+                        </div> */}
                         <div className="ct-map">
                             <div className="ct-map-t">📍 Prayagraj, Uttar Pradesh</div>
                             <div className="ct-map-s">Bharat Scout Training Center</div>

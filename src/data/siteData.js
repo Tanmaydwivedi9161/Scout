@@ -34,7 +34,7 @@ export const COURSES = [
     },
     {
         id: 2,
-        title: "Animation & VFX",
+        title: "Animation",
         badge: "Creative Track",
         badgeColor: "#00C9A7",
         duration: "6 Months",
@@ -46,13 +46,11 @@ export const COURSES = [
             "Unleash your creativity with professional 2D/3D animation tools. Learn industry-standard software used by top studios worldwide.",
         highlights: [
             "2D Animation & Motion Graphics",
-            "3D Modeling & Rigging (Maya/Blender)",
-            "Adobe After Effects & Premiere",
-            "VFX Compositing",
-            "Character Design & Storyboarding",
+            "3D Animation & Mocap",
+            "AI Software",
             "Demo Reel + Industry Project",
         ],
-        eligibility: "10th Pass / Any Graduate",
+        eligibility: "12th Pass / Any Graduate",
         seats: "25 Seats per Batch",
         fee: "Subsidized under NSDC",
     },
@@ -88,8 +86,8 @@ export const FEATURES = [
     },
     {
         icon: "🎓",
-        title: "Government Certificate",
-        desc: "Nationally recognized certificate valid across India for government & private sector jobs.",
+        title: "Certificate",
+        desc: "Nationally recognized certificate valid across India for private sector jobs.",
     },
     {
         icon: "💰",
@@ -100,7 +98,7 @@ export const FEATURES = [
 
 export const CONTACT = {
     address: "Bharat Scout Training Center, Prayagraj, Uttar Pradesh – 211001",
-    phone: "+91 98765 43210",
+    phone: "+91 9935266755",
     email: "info@bstcprayagraj.in",
-    timings: "Mon – Sat: 10:00 AM – 4:00 PM",
+    timings: "Mon – Sat: 10:00 AM – 8:00 PM",
 };
