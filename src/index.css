@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --saffron: #FF6B00;
+  --saffron-dark: #D45500;
+  --navy: #080F1E;
+  --navy-card: #0E1E38;
+  --teal: #00C9A7;
+  --gold: #FFB800;
+  --white: #F4F0E8;
+  --muted: #8A9BB5;
+  --font-display: 'Bebas Neue', cursive;
+  --font-heading: 'Rajdhani', sans-serif;
+  --font-body: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--navy);
+  color: var(--white);
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--navy);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--saffron);
+  border-radius: 3px;
+}

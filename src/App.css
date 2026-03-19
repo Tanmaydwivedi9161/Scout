@@ -1,0 +1,10 @@
+.cf-input select,
+.cf-input option {
+  background: #0E1E38;
+  color: #F4F0E8;
+}
+
+.cf-input option:hover {
+  background: #FF6B00;
+  color: #fff;
+}
